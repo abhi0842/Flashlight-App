@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3ECAD"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:padding="4dp"
+
+        android:text="Torch Off"
+        android:textAlignment="center"
+        android:textColor="#100E0C"
+        android:textSize="40dp"
+        android:backgroundTint="#FF9800"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/togglebutton"
+        android:layout_width="361dp"
+        android:layout_height="135dp"
+        android:textSize="34dp"
+        android:layout_below="@id/textview"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="#B89A6E"
+        android:padding="7dp"
+        android:textAllCaps="false"
+        android:textColor="#514C4C"
+        android:textStyle="bold" />
+
+</RelativeLayout>
